@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+} 
+body{
+    width: 100%;
+    background-color: whitesmoke;
+    display: grid;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*Login Page CSS*/
+.loginpagebox{
+    display: flex;
+    margin: 100px auto;
+    width: 46rem;
+    height: 25rem;
+    padding: 2px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.loginpagebox h2{
+    font-family:Arial ;
+}
+.databox{
+    width: 22rem;
+    padding:45px 80px;
+}
+.loginpagebox form{
+    display: grid;
+    width: fit-content;
+    margin: 30px 0px;
+    gap:15px;
+    text-align: left;
+}
+.userinput{
+    border-bottom: solid 2px gray;
+    display: flex;
+    gap: 15px;
+}
+.userinput input{
+    padding:5px;
+}
+#lbtn{
+   background-color: teal;
+   padding: 5px;
+   width: 6rem;
+   margin: 20px auto;
+   color: white;
+}
+.imgbox{
+    width: 25rem;
+}
+.imgbox img{
+    width: 100%;
+    height: 90%;
+}
+.imgbox h5{
+    margin-left: 120px ;
+    width: fit-content;
+    border-bottom: solid 1px black;
+    padding-bottom: 2px;
+}
+.imgbox h5:hover{
+    cursor:pointer;
+}
+#adminlogin .databox{
+    margin-top: 60px;
+}
+#cusregistration, #worlogin, #worregistration, #adminlogin{
+    display: none;
+}
+/* header*/
+header{
+    display: flex;
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    padding: 18px;
+    color:white;
+    background-color:rgb(34, 34, 34);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px whitesmoke;
+}
+.links{
+    width: fit-content;
+    padding: 5px;
+    margin-left: 65rem;
+}
+.links li{
+    display: inline-block;
+    margin: 0px 20px;
+    font-size: larger;
+}
+.links li:hover{
+    padding-bottom: 5px;
+    border-bottom: solid 1px rgb(182, 181, 181); 
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    margin-top: 65px;
+    display: grid;
+}
+/*footer css*/
+footer{
+    display: flex;
+    width: 100%;
+    padding: 1rem 5rem; 
+    box-shadow: 0px 0px 5px rgb(94, 93, 93);
+    background-color: white;
+    gap: 30px;
+}
+.fdiv{
+    width: fit-content;
+    display: grid;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+footer li,p{
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    color: gray;
+}
+#flast{
+    margin-left: 9px;
+    width: 28rem;
+    gap: 8px;
+}
+#flast p{
+    text-align: justify;
+}
+footer a{
+    color: rgb(109, 109, 202);
+}
+/*home page*/
+.imagebar{
+    width: 100%;
+    height: 25rem;
+    background: url("../customer/image/home.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 82%;
+}
+.category{
+    display: grid;
+    text-align: center;
+}
+.sertitle{
+    padding: 10px;
+    margin: 0px auto;
+}
+.sertitle h2{
+    width: fit-content;
+    border-bottom: solid 1px goldenrod;
+    padding: 5px;
+}
+.categorylist{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.catbox{
+    padding: 5px 0px;
+    height: fit-content;
+    width: 100px;
+    text-align: center;
+    background-color:white;
+    font-size: small;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px black;
+}
+.catbox img{
+    background-attachment: fixed;
+    width: 40%;
+    background-color: transparent;
+}
+.servicelist{
+    height: 500px;
+    padding: 20px;
+    display:grid;
+    margin: 20px 0px;
+    overflow-x: scroll;
+    background-color: white;
+}
+.servicelist h3, h4{
+    margin-left: 10px ;
+    color: gray;
+    margin-top: 5px;
+}
+.servicelist::-webkit-scrollbar{
+    display: none;
+}
+.list{
+    display: flex;
+    margin: 20px;
+    gap:20px;
+}
+.list img{
+    height: 80%;
+    width: 100%;
+}
+.box{
+    border: solid 1px white;
+    box-shadow: 0px 0px 10px rgb(197, 196, 196);
+    height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.block{
+    width: 100%;
+    height:12rem;
+    padding: 30px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    word-spacing: 5px;
+}
+.block button{
+    padding: 14px;
+    margin-top: 2rem;
+    width: 8rem;
+    background-color: transparent;
+    border: solid 1px white;
+    color:white;
+    font-size: larger;
+}
+.block button:hover{
+    background-color: rgba(212, 212, 212, 0.603);
+}
+/*movie detail*/
+.moviedetail{
+    display: flex;
+    height:400px;
+    margin:20px 10px;
+    gap:20px;
+}
+.moviedetail img{
+    height: 94%;
+}
+/*theater css*/
+
+/*seat selection page css*/
+.bookseat{
+    display:flex;
+}
+.available{
+    border: solid 1px black;
+    width: 72rem;
+    text-align: center;
+    display: grid;
+    background-color: rgb(236, 236, 236);
+}
+.available h3{
+    letter-spacing: 3px;
+    font-style: italic;
+    font-size: x-large;
+}
+.iseat{
+    border: solid 1px red;
+    width: 355px;
+    padding: 10px;
+    display: grid;
+    gap: 30px;
+    background-color: rgb(236, 236, 236);
+}
+.iseat form{
+    text-align: center;
+    display: grid;
+    gap: 20px;
+}
+.seatcount{
+    display: flex;
+    gap: 20px;
+}
+#seatbtn{
+    padding:4px 15px ;
+    background-color: black;
+    color: white;
+}
+/*payment page css*/
+.sumbookseat{
+    display: flex;
+    margin-top: 60px;
+}
+.summary{
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(107, 107, 107);
+    width: 450px;
+    margin-left: 300px;
+    font-size: smaller;
+    padding: 10px;
+    width: 400px;
+}
+.summarydata{
+    display: grid;
+    gap: 15px;
+    color :rgb(107, 107, 107);
+    font-style: oblique;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-left: 30px;
+}
+.summary form{
+    text-align: center;
+}
+#pbtn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: goldenrod;
+    box-shadow: 0px 0px 10px goldenrod;
+    border: solid 1px red;
+}
